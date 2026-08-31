@@ -5,6 +5,9 @@ This is an IT system used for managing residential waste disposal and public fac
 
 ### Team Meambers Of GUOWANG
 Manager: Kruti Bhatt
+
 Developer: Rongjun Li & Jeramiah Dekker
+
 UI Design: Zixuan Tang
+
 Documentation: Jineth Situsara
