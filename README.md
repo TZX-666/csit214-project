@@ -11,3 +11,13 @@ Developer: Rongjun Li & Jeramiah Dekker
 UI Design: Zixuan Tang
 
 Documentation: Jineth Situsara
+
+## UI Design
+
+### Editable Figma Design
+https://www.figma.com/design/NqyCWbXv7zx98NOdvAm0Aj/
+
+The Figma file contains eight UI screens covering the resident reporting
+workflow and the Council staff assessment and assignment workflow.
+
+PNG previews are available in `docs/ui-design/screens/`.
