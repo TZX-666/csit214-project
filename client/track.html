@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Track request | CoastLink Council</title>
+  </head>
+  <body>
+    <header class="top">
+      <div class="wrap bar">
+        <a class="brand" href="/" aria-label="CoastLink Council home">
+          <span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span>CoastLink<br /><b>Council</b></span>
+        </a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="/report.html">Report an issue</a>
+          <a class="on" href="/track.html">Track request</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page track-page">
+      <div class="wrap small-wrap">
+        <p class="eyebrow">Request tracking</p>
+        <h1 class="page-title">Track a request</h1>
+        <p class="page-lead">Enter your request number to see its latest status.</p>
+
+        <form class="search" id="search">
+          <label for="ref">Request number</label>
+          <div>
+            <input id="ref" name="ref" placeholder="CL-2026-00125" required />
+            <button class="btn" type="submit">Track request</button>
+          </div>
+          <p class="form-msg" id="msg" role="alert"></p>
+        </form>
+
+        <section class="result" id="result" hidden>
+          <div class="result-head">
+            <div>
+              <span class="label">Current request</span>
+              <h2 id="title">—</h2>
+              <p><b id="out-ref">—</b> · Updated <span id="updated">—</span></p>
+            </div>
+            <span class="status" id="status">—</span>
+          </div>
+
+          <dl class="meta">
+            <div><dt>Priority</dt><dd id="priority">—</dd></div>
+            <div><dt>Assigned team</dt><dd id="team">—</dd></div>
+            <div><dt>Location</dt><dd id="place">—</dd></div>
+          </dl>
+
+          <div class="progress">
+            <h3>Progress</h3>
+            <ol id="history"></ol>
+          </div>
+        </section>
+
+        <aside class="help">
+          <h2>Can’t find your request?</h2>
+          <p>Check the reference number shown on your submission confirmation.</p>
+        </aside>
+      </div>
+    </main>
+
+    <script type="module" src="/src/track.ts"></script>
+  </body>
+</html>
